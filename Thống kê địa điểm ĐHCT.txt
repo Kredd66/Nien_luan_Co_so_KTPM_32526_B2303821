@@ -1,0 +1,46 @@
+A: Bệnh xá thú y
+B: Bộ môn Giao dục thể chat
+C: Hội trường lớn ĐHCT
+D: Khoa Công nghệ
+E: Khoa Công nghệ thông tin & TT
+F: Khoa dự bị dân tộc
+G: Khoa khoa học chính trị
+H: Khoa Khoa học tự nhiên
+I: Khoa luật
+J: Khoa Khoa học xã hội và nhân văn
+K: Khoa kinh tế & quản trị kinh tế
+L: Khoa môi trường & TNTN
+M: Khoa nông nghiệp & SHUD
+N: Khoa sư phạm
+O: Khoa thủy sản
+P: Khu dịch vụ ương tạo doanh nghiệp
+Q: Ký túc xá bến tre
+R: Ký túc xá Hậu Giang
+S: Ký túc xá Khu B
+T: Ký túc xá Long an
+U: Nhà điều hành
+V: Nhà học A3
+W: Nhà học B1
+X: Nhà học C1
+Y: Nhà học C2
+Z: Nhà học D1
+a: Nhà học D2
+b: Nhà thi đấu TDTT-DHCT
+c: Phòng thí nghiệm chọn giống và ung dung CNSH
+d: Phòng thí nghiệm chuyên sâu
+e: Trại nghiên cứu và thực nghiệm nông nghiệp
+f: Tổ bảo vệ
+g: Trung tâm dịch vụ khoa học nông nghiệp
+h: Trung tâm học lieu
+i: Trung tâm kiểm định và tư vấn xây dung
+j: Trung tâm nghiên cứu và đào tạo nghề nông thôn
+k: Trung tâm ngoại ngữ
+l: Trường trung học thực hành sư phạm
+m: Văn phòng đoàn thanh niên
+n: Viện nghiên cứu phát triển ĐBSCL
+o: Viện nghiên cứu và phát triển công nghệ sinh học
+p: Vườn bang
+q: Vường Hoa kiểng
+r: Xưởng thiết bị trường học
+và 12 bãi xe.
+
