@@ -1,0 +1,16 @@
+{
+  "name": "nien_luan_co_so_ktpm_32526_B2303821",
+  "version": "1.0.0",
+  "description": "Backend API tim duong ngan nhat",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
