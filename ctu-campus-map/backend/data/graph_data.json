@@ -1,10 +1,658 @@
 {
-    [
+    "nodes": [
         {
             "id": 0,
             "name": "Cổng A",
-            "x": ,
-            "y":
+            "x": 105.77216,
+            "y": 10.03020,
+            "type": "gate"
         },
+        {
+            "id": 1,
+            "name": "Cổng B",
+            "x": 105.77114,
+            "y": 10.02902,
+            "type": "gate"
+        },
+        {
+            "id": 2,
+            "name": "Cổng C",
+            "x": 105.77005474114624,
+            "y": 10.027873889590468,
+            "type": "gate"
+        },
+        {
+            "id": 3,
+            "name": "Khoa KHCT, XH & NV /XH",
+            "x": 105.77235,
+            "y": 10.03139,
+            "type": "building"
+        },
+        {
+            "id": 4,
+            "name": "Nhà học A3",
+            "x": 105.77214,
+            "y": 10.03114,
+            "type": "building"
+        },
+        {
+            "id": 5,
+            "name": "Trung tâm học liệu ĐHCT",
+            "x": 105.77136,
+            "y": 10.03020,
+            "type": "building"
+        },
+        {
+            "id": 6,
+            "name": "Nhà học D1",
+            "x": 105.77091,
+            "y": 10.02965,
+            "type": "building"
+        },
+        {
+            "id": 7,
+            "name": "Nhà Điều hành",
+            "x": 105.77052,
+            "y": 10.02986,
+            "type": "building"
+        },
+        {
+            "id": 8,
+            "name": "Nhà học D2",
+            "x": 105.77039,
+            "y": 10.03030,
+            "type": "building"
+        },
+        {
+            "id": 9,
+            "name": "Tòa nhà công nghệ cao",
+            "x": 105.77043,
+            "y": 10.02907,
+            "type": "building"
+        },
+        {
+            "id": 10,
+            "name": "Trung tâm ngoại ngữ",
+            "x": 105.77,
+            "y": 10.02812,
+            "type": "building"
+        },
+        {
+            "id": 11,
+            "name": "Khoa luật",
+            "x": 105.76974,
+            "y": 10.02847,
+            "type": "building"
+        },
+        {
+            "id": 12,
+            "name": "Hội trường rùa",
+            "x": 105.76948,
+            "y": 10.02936,
+            "type": "building"
+        },
+        {
+            "id": 13,
+            "name": "Nhà học C2",
+            "x": 105.76833,
+            "y": 10.02883,
+            "type": "building"
+        },
+        {
+            "id": 14,
+            "name": "Trường sư phạm",
+            "x": 105.76823,
+            "y": 10.02828,
+            "type": "building"
+        },
+        {
+            "id": 15,
+            "name": "Trường THPT thực hành sư phạm",
+            "x": 105.76815,
+            "y": 10.02796,
+            "type": "building"
+        },
+        {
+            "id": 16,
+            "name": "Khoa dự bị dân tộc",
+            "x": 105.76766,
+            "y": 10.02797,
+            "type": "building"
+        },
+        {
+            "id": 17,
+            "name": "Khoa KHCT",
+            "x": 105.77163,
+            "y": 10.03281,
+            "type": "building"
+        },
+        {
+            "id": 18,
+            "name": "Trường kinh tế",
+            "x": 105.77091,
+            "y": 10.03308,
+            "type": "building"
+        },
+        {
+            "id": 19,
+            "name": "Khoa khoa học tự nhiên",
+            "x": 105.77024,
+            "y": 10.03266,
+            "type": "building"
+        },
+        {
+            "id": 20,
+            "name": "Nhà học C1",
+            "x": 105.77038,
+            "y": 10.03092,
+            "type": "building"
+        },
+        {
+            "id": 21,
+            "name": "Văn phòng Đoàn TN, Hội sinh viên ",
+            "x": 105.76945,
+            "y": 10.03073,
+            "type": "building"
+        },
+        {
+            "id": 22,
+            "name": "Trường CNTT&TT",
+            "x": 105.76897,
+            "y": 10.03090,
+            "type": "building"
+        },
+        {
+            "id": 23,
+            "name": "Trường nông nghiệp",
+            "x": 105.76790,
+            "y": 10.03035,
+            "type": "building"
+        },
+        {
+            "id": 24,
+            "name": "Khoa môi trường & tài nguyên thiên nhiên ",
+            "x": 105.76494,
+            "y": 10.02738,
+            "type": "building"
+        },
+        {
+            "id": 25,
+            "name": "Ký túc xá A",
+            "x": 105.76997,
+            "y": 10.03375,
+            "type": "building"
+        },
+        {
+            "id": 26,
+            "name": "Nhà thi đấu mới",
+            "x": 105.76924,
+            "y": 10.03333,
+            "type": "building"
+        },
+        {
+            "id": 27,
+            "name": "Khoa giáo dục thể chất",
+            "x": 105.76866,
+            "y": 10.03214,
+            "type": "building"
+        },
+        {
+            "id": 28,
+            "name": "Nhà học B1",
+            "x": 105.76785,
+            "y": 10.03158,
+            "type": "building"
+        },
+        {
+            "id": 29,
+            "name": "Trường Bách khoa",
+            "x": 105.76690,
+            "y": 10.03237,
+            "type": "building"
+        },
+        {
+            "id": 30,
+            "name": "Tòa nhà phức hợp phòng thí nghiệm",
+            "x": 105.76602,
+            "y": 10.03103,
+            "type": "building"
+        },
+        {
+            "id": 31,
+            "name": "Viện công nghệ sinh học và thực phẩm",
+            "x": 105.76637,
+            "y": 10.03060,
+            "type": "building"
+        },
+        {
+            "id": 32,
+            "name": "Trường thủy sản",
+            "x": 105.76553,
+            "y": 10.03165,
+            "type": "building"
+        },
+        {
+            "id": 33,
+            "name": "Ký túc xá khu B",
+            "x": 105.76440,
+            "y": 10.03023,
+            "type": "building"
+        },
+        {
+            "id": 34,
+            "name": "Bãi giữ xe nhà học A3",
+            "x": 105.77237,
+            "y": 10.03062,
+            "type": "parking"
+        },
+        {
+            "id": 35,
+            "name": "Bãi giữ xe nhà học D1 ",
+            "x": 105.77132,
+            "y": 10.02938,
+            "type": "parking"
+        },
+        {
+            "id": 36,
+            "name": "Bãi giữ xe ATL",
+            "x": 105.77038,
+            "y": 10.02920,
+            "type": "parking"
+        },
+        {
+            "id": 37,
+            "name": "Bãi giữ xe Khoa Sư phạm ",
+            "x": 105.76910,
+            "y": 10.02854,
+            "type": "parking"
+        },
+        {
+            "id": 38,
+            "name": "Bãi giữ xe nhà học C2",
+            "x": 105.76851,
+            "y": 10.02924,
+            "type": "parking"
+        },
+        {
+            "id": 39,
+            "name": "Bãi giữ xe Khoa dự bị dân tộc",
+            "x": 105.76716,
+            "y": 10.02789,
+            "type": "parking"
+        },
+        {
+            "id": 40,
+            "name": "Bãi giữ xe trường Kinh tế",
+            "x": 105.77118,
+            "y": 10.03297,
+            "type": "parking"
+        },
+        {
+            "id": 41,
+            "name": "Bãi giữ xe trường CNTT&TT",
+            "x": 105.76953,
+            "y": 10.03153,
+            "type": "parking"
+        },
+        {
+            "id": 42,
+            "name": "Bãi giữ xe nhà thi đấu",
+            "x": 105.76909,
+            "y": 10.03265,
+            "type": "parking"
+        },
+        {
+            "id": 43,
+            "name": "Bãi giữ xe B1",
+            "x": 105.76741,
+            "y": 10.03112,
+            "type": "parking"
+        },
+        {
+            "id": 44,
+            "name": "Bãi giữ xe C1",
+            "x": 105.76983,
+            "y": 10.03028,
+            "type": "parking"
+        },
+        {
+            "id": 45,
+            "name": "Bãi giữ xe Văn phòng Đoàn",
+            "x": 105.76946,
+            "y": 10.03026,
+            "type": "parking"
+        },
+        {
+            "id": 46,
+            "name": "Bãi giữ xe KTX khu A",
+            "x": 105.76895,
+            "y": 10.03425,
+            "type": "parking"
+        },
+        {
+            "id": 47,
+            "name": "Bãi giữ xe trường Bách khoa",
+            "x": 105.76743,
+            "y": 10.03206,
+            "type": "parking"
+        },
+        {
+            "id": 48,
+            "name": "Bãi giữ xe Tòa nhà phức hợp phòng thí nghiệm",
+            "x": 105.76560,
+            "y": 10.03029,
+            "type": "parking"
+        },
+        {
+            "id": 49,
+            "name": "Bãi giữ xe KTX khu B",
+            "x": 105.76510,
+            "y": 10.030331,
+            "type": "parking"
+        },
+        {
+            "id": 50,
+            "name": "Bãi giữ xe khoa MT&TNTT",
+            "x": 105.76500,
+            "y": 10.02696,
+            "type": "parking"
+        },
+        {
+            "id": 51,
+            "name": "Bãi giữ xe Trường thủy sản",
+            "x": 105.76548,
+            "y": 10.03234,
+            "type": "parking"
+        },
+        {
+            "id": 52,
+            "name": "Ngã tư Cổng A",
+            "x": 105.77180,
+            "y": 10.03040,
+            "type": "junction"
+        },
+        {
+            "id": 53,
+            "name": "Ngã tư Cổng B",
+            "x": 105.77080,
+            "y": 10.02920,
+            "type": "junction"
+        },
+        {
+            "id": 54,
+            "name": "Ngã tư Cổng C",
+            "x": 105.76950,
+            "y": 10.02800,
+            "type": "junction"
+        },
+        {
+            "id": 55,
+            "name": "Bùng binh trung tâm",
+            "x": 105.76950,
+            "y": 10.03120,
+            "type": "junction"
+        },
+        {
+            "id": 56,
+            "name": "Ngã ba Hội trường Rùa",
+            "x": 105.76980,
+            "y": 10.02950,
+            "type": "junction"
+        },
+        {
+            "id": 57,
+            "name": "Ngã tư Bách khoa - Nông nghiệp",
+            "x": 105.76750,
+            "y": 10.03150,
+            "type": "junction"
+        },
+        {
+            "id": 58,
+            "name": "Ngã ba Khu A",
+            "x": 105.77010,
+            "y": 10.03320,
+            "type": "junction"
+        },
+        {
+            "id": 59,
+            "name": "Ngã ba Thủy sản - KTX B",
+            "x": 105.76500,
+            "y": 10.03100,
+            "type": "junction"
+        },
+        {
+            "id": 60,
+            "name": "Ngã tư Cực Nam",
+            "x": 105.76600,
+            "y": 10.02750,
+            "type": "junction"
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 24,
+            "weight": 40
+        },
+        {
+            "from": 0,
+            "to": 23,
+            "weight": 120
+        },
+        {
+            "from": 0,
+            "to": 4,
+            "weight": 150
+        },
+        {
+            "from": 23,
+            "to": 4,
+            "weight": 80
+        },
+        {
+            "from": 23,
+            "to": 27,
+            "weight": 60
+        },
+        {
+            "from": 4,
+            "to": 27,
+            "weight": 50
+        },
+        {
+            "from": 4,
+            "to": 17,
+            "weight": 90
+        },
+        {
+            "from": 4,
+            "to": 29,
+            "weight": 130
+        },
+        {
+            "from": 17,
+            "to": 28,
+            "weight": 40
+        },
+        {
+            "from": 17,
+            "to": 29,
+            "weight": 80
+        },
+        {
+            "from": 5,
+            "to": 25,
+            "weight": 40
+        },
+        {
+            "from": 5,
+            "to": 29,
+            "weight": 100
+        },
+        {
+            "from": 5,
+            "to": 1,
+            "weight": 200
+        },
+        {
+            "from": 29,
+            "to": 33,
+            "weight": 150
+        },
+        {
+            "from": 29,
+            "to": 30,
+            "weight": 200
+        },
+        {
+            "from": 29,
+            "to": 8,
+            "weight": 220
+        },
+        {
+            "from": 1,
+            "to": 33,
+            "weight": 80
+        },
+        {
+            "from": 33,
+            "to": 7,
+            "weight": 120
+        },
+        {
+            "from": 33,
+            "to": 8,
+            "weight": 130
+        },
+        {
+            "from": 8,
+            "to": 31,
+            "weight": 200
+        },
+        {
+            "from": 31,
+            "to": 9,
+            "weight": 80
+        },
+        {
+            "from": 31,
+            "to": 10,
+            "weight": 120
+        },
+        {
+            "from": 10,
+            "to": 3,
+            "weight": 200
+        },
+        {
+            "from": 3,
+            "to": 19,
+            "weight": 100
+        },
+        {
+            "from": 3,
+            "to": 18,
+            "weight": 150
+        },
+        {
+            "from": 18,
+            "to": 11,
+            "weight": 130
+        },
+        {
+            "from": 11,
+            "to": 34,
+            "weight": 120
+        },
+        {
+            "from": 34,
+            "to": 12,
+            "weight": 80
+        },
+        {
+            "from": 34,
+            "to": 13,
+            "weight": 100
+        },
+        {
+            "from": 34,
+            "to": 2,
+            "weight": 250
+        },
+        {
+            "from": 30,
+            "to": 6,
+            "weight": 80
+        },
+        {
+            "from": 30,
+            "to": 26,
+            "weight": 50
+        },
+        {
+            "from": 30,
+            "to": 14,
+            "weight": 150
+        },
+        {
+            "from": 30,
+            "to": 32,
+            "weight": 180
+        },
+        {
+            "from": 6,
+            "to": 2,
+            "weight": 350
+        },
+        {
+            "from": 14,
+            "to": 22,
+            "weight": 100
+        },
+        {
+            "from": 14,
+            "to": 15,
+            "weight": 120
+        },
+        {
+            "from": 15,
+            "to": 16,
+            "weight": 90
+        },
+        {
+            "from": 16,
+            "to": 0,
+            "weight": 200
+        },
+        {
+            "from": 22,
+            "to": 32,
+            "weight": 80
+        },
+        {
+            "from": 32,
+            "to": 20,
+            "weight": 100
+        },
+        {
+            "from": 32,
+            "to": 21,
+            "weight": 120
+        },
+        {
+            "from": 21,
+            "to": 2,
+            "weight": 280
+        },
+        {
+            "from": 7,
+            "to": 34,
+            "weight": 300
+        },
+        {
+            "from": 13,
+            "to": 2,
+            "weight": 200
+        }
     ]
 }
