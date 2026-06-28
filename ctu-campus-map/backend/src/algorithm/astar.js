@@ -1,4 +1,4 @@
-const haversine = require('../utils/haversine');
+const { haversine } = require('../utils/haversine');
 
 function aStar(adjList, nodes, sourceId, targetId) {
     //Tạo map để tra cứu thông tin node theo id nhanh hơn

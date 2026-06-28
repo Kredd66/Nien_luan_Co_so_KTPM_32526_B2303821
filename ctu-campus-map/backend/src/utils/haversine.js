@@ -10,4 +10,4 @@ function haversine(lat1, lng1, lat2, lng2) {
     return R * c;
 }
 
-module.exports = haversine;
+module.exports = { haversine };
