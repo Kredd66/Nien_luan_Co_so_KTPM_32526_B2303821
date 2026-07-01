@@ -5,10 +5,10 @@ function aStar(adjList, nodes, sourceId, targetId) {
     const nodeMap = Object.fromEntries(nodes.map((n) => [n.id, n]));
     const target = nodeMap[targetId];
 
-    //h(n): hàm heuristic - khoảng cách đường thẳng từ node n đến đích
+    //h(n): hàm heuristic - khoảng cách đường thẳng từ node n đến đích (chuẩn hóa tỷ lệ để đảm bảo tính chất chấp nhận được)
     const h = (id) => {
         const n = nodeMap[id];
-        return haversine(n.lat, n.lng, target.lat, target.lng);
+        return haversine(n.y, n.x, target.y, target.x) / 21.27;
     };
 
     const g = {};

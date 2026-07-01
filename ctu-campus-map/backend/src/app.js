@@ -1,62 +1,30 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const fs = require('fs');
-const path = require('path');
-const { aStar } = require('../src/algorithm/astar');
 
-const app = express()
+// Import các router chúng ta vừa viết
+const navigationRouter = require('./routes/navigation');
+const nodesRouter = require('./routes/nodes');
+
+const app = express();
+
+// Cấu hình Middleware
 app.use(cors());
-app.use(express.json())
+app.use(express.json());
 
-// Đọc dữ liệu đồ thị 1 lần khi server khởi động
-const graphDataPath = path.join(__dirname, '../data/graph_data.json');
-const graphData = JSON.parse(fs.readFileSync(graphDataPath, 'utf-8'));
+// Đăng ký các Route với tiền tố là "/api"
+app.use('/api', navigationRouter);
+app.use('/api', nodesRouter);
 
-// Chuyển mảng edges -> danh sách kề (adjacency list)
-function buildAdjList(nodes, edges) {
-    const adj = {};
-    nodes.forEach((n) => (adj[n.id] = []));
-    edges.forEach(({ from, to, weight }) => {
-        adj[from].push({ to, weight });
-        adj[to].push({ to: from, weight }); // đồ thị vô hướng
-    });
-    return adj;
-}
-
-const adjList = buildAdjList(graphData.nodes, graphData.edges);
-
-// ─── ROUTES ───────────────────────────────────────
-
-app.get('/api/graph', (req, res) => {
-    res.json(graphData);
+// (Tùy chọn) Endpoint mặc định để kiểm tra trạng thái server hoạt động
+app.get('/', (req, res) => {
+    res.json({ message: "Welcome to CTU Campus Map API! Server is running smoothly." });
 });
 
-app.post('/api/shortest-path', (req, res) => {
-    const { source, target } = req.body;
-
-    if (source === undefined || target === undefined) {
-        return res.status(400).json({ error: 'Thiếu source hoặc target' });
-    }
-
-    const sourceId = Number(source);
-    const targetId = Number(target);
-
-    if (sourceId === targetId) {
-        return res.status(400).json({ error: 'Điểm xuất phát và đích trùng nhau' });
-    }
-    const validIds = new Set(graphData.nodes.map((n) => n.id));
-    if (!validIds.has(sourceId) || !validIds.has(targetId)) {
-        return res.status(400).json({ error: 'source hoặc target không tồn tại trong đồ thị' });
-    }
-
-    const result = aStar(adjList, graphData.nodes, sourceId, targetId);
-
-    if (!result) {
-        return res.status(404).json({ error: 'Không tìm thấy đường đi' });
-    }
-
-    res.json(result);
+// Middleware xử lý lỗi tập trung khi có lỗi phát sinh không mong muốn
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).json({ error: 'Đã xảy ra lỗi không mong muốn trên hệ thống!' });
 });
 
 const PORT = process.env.PORT || 3000;
